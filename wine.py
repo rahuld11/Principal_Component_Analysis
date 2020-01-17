@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import scale
 
-wine=pd.read_csv("G:\\Assignments\\Dimension Reduction\\PCA\\Assignments\\wine.csv")
+wine=pd.read_csv("Dimension Reduction\\PCA\\wine.csv")
 wine.head()
 wine.describe()
 
